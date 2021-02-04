@@ -1,17 +1,58 @@
+/* light grey #D4D4D2
+black         #1C1C1C
+dark grey     #505050
+orange        #FF9500 */
+html {
+    background-color: #1C1C1C;
+    font-family: Arial, sans-serif;
+}
+
 .container {
     width: 400px;
-    margin: 20px auto;
+    margin: 80px auto;
+}
+
+.buttons {
+    margin: 10px auto;
 }
 
 button {
     width: 80px;
+    height: 80px;
     margin: 7px;
+    border-radius: 50%;
+    font-size: 25px;
+    border: none;
 }
 
 #display {
-    width: 100%;
-    height: 30px;
+    width: 98%;
+    height: 100px;
     border: 1px solid black;
-    margin: 15px;
+    margin: 15px 0;
     border-radius: 5px;
+    font-size: 80px;
+    font-weight: 100;
+    color: #D4D4D2;
+    border: none;
+    text-align: end;
+}
+
+.digitButtons {
+    background-color: #505050;
+    color: white;
+}
+
+.operatorButtons {
+    background-color: #FF9500;
+    color:  white;
+}
+
+.miscButtons {
+    background-color: #D4D4D2;
+}
+
+#zeroButton {
+    width: 180px;
+    border-radius: 40px;
 }
